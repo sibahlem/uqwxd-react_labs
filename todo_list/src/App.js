@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 const App = () => {
-  const [todos, setTodos] = React.useState([]);
+  const [todos, setTodos] = React.useState([]); // todos is the state, which maintains list of all todo tasks, and setTodos is the function that sets the value of the state.
   const [todo, setTodo] = React.useState("");
 
   // States to implement editing fuctionality:
@@ -25,7 +25,7 @@ const App = () => {
       }
   }, [todos]);
   
-  // handlesubmit function:
+  // handlesubmit function: The handleSubmit handler will prevent the default action that would normally be taken on the form and add a new Task using the latest value that is in the input field.
   function handleSubmit(e) {
     e.preventDefault();
 
