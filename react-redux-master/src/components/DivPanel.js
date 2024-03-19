@@ -11,3 +11,5 @@ const DivPanel = ()=> {
 }
 
 export default DivPanel;
+
+// 'useSelector' is used to select the state from the store whose value you want to access.
