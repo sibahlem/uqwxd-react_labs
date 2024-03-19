@@ -10,3 +10,6 @@ const MyButton = ()=> {
 }
 
 export default MyButton;
+
+// 'useDispatch' dispatches the event to the store and finds out what action is to be taken 
+// and uses the appropriate reducer to do the same.
