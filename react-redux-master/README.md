@@ -1,3 +1,5 @@
+# me: run 'npm install --save -s redux react-redux react react-dom react-scripts react-service-worker web-vitals' to Install the libraries required for your application using the below command. Once installed, verify if the required packages are installed in the package.json file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
